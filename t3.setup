@@ -52,6 +52,8 @@
         url="http://basepom.github.io/basepom-m2e/update-site/latest/"/>
     <repository
         url="http://ifedorenko.github.com/m2e-extras/"/>
+    <repository
+        url="http://repo1.maven.org/maven2/.m2e/connectors/m2eclipse-plexus/0.15.0/N/0.15.0.201207090126/"/>
     <description>Install the tools needed in the IDE to work with the source code for ${scope.project.label}</description>
   </setupTask>
   <setupTask
