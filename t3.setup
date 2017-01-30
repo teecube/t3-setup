@@ -42,6 +42,12 @@
       storageURI="scope://Workspace"/>
   <setupTask
       xsi:type="setup.p2:P2Task">
+    <requirement
+        name="org.basepom.m2e.mycila_license.feature.feature.group"/>
+    <requirement
+        name="com.ifedorenko.m2e.mavendev.feature.feature.group"/>
+    <requirement
+        name="org.sonatype.m2e.plexus.annotations.feature.feature.group"/>
     <description>Install the tools needed in the IDE to work with the source code for ${scope.project.label}</description>
   </setupTask>
   <setupTask
