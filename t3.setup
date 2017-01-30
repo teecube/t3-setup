@@ -48,6 +48,10 @@
         name="com.ifedorenko.m2e.mavendev.feature.feature.group"/>
     <requirement
         name="org.sonatype.m2e.plexus.annotations.feature.feature.group"/>
+    <repository
+        url="http://basepom.github.io/basepom-m2e/update-site/latest/"/>
+    <repository
+        url="http://ifedorenko.github.com/m2e-extras/"/>
     <description>Install the tools needed in the IDE to work with the source code for ${scope.project.label}</description>
   </setupTask>
   <setupTask
